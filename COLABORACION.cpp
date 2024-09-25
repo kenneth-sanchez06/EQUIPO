@@ -16,5 +16,8 @@ int main()
         hora = hora+minuto/60;
         minuto = minuto%60;
     }
+    if (hora >=24)
+    { hora = 0;
+    }
 }
 
